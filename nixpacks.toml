@@ -1,0 +1,9 @@
+[phases.build]
+nixPkgs = ["r"]
+commands = [
+  "R -e \"install.packages('plumber', repos='https://cloud.r-project.org')\"",
+  "R -e \"install.packages(c('caret', 'dplyr', 'rpart'), repos='https://cloud.r-project.org')\""
+]
+
+[phases.start]
+command = "Rscript start.R"
