@@ -56,7 +56,7 @@ Rscript start.R
 ```r
 rsconnect::deployApp(
   appDir = ".",
-  appName = "ml-purchase-api",
+  appName = "purchase-prediction-api",
   account = "oumacavin"
 )
 ```
