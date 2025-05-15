@@ -1,0 +1,10 @@
+name: purchase-prediction-api
+title:
+username: oumacavin
+account: oumacavin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14755261
+bundleId: 10285367
+url: https://oumacavin.shinyapps.io/purchase-prediction-api/
+version: 1

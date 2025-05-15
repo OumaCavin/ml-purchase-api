@@ -1,0 +1,10 @@
+# Create a .gitignore file (prevents pushing unnecessary files)
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+test-api.R
+run_api.R
+index.html
+# models/*.rds
